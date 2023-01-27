@@ -27,6 +27,7 @@ targets:
     postCompileScripts:
       - name: SwiftLint
         script: ./lint.sh
+        basedOnDependencyAnalysis: false
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX)$(SCHEME_NAME)
@@ -47,6 +48,7 @@ targets:
     postCompileScripts:
       - name: SwiftLint
         script: ./lint.sh
+        basedOnDependencyAnalysis: false
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX)$(SCHEME_NAME)
