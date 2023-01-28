@@ -3,5 +3,6 @@
 #include "Common.xcconfig"
 
 SCHEME_NAME = internal
+BUNDLE_ID = $(BUNDLE_ID_PREFIX).$(SCHEME_NAME)
 
 OTHER_CODE_SIGN_FLAGS = --timestamp

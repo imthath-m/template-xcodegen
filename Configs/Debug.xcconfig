@@ -3,3 +3,4 @@
 #include "Common.xcconfig"
 
 SCHEME_NAME = debug
+BUNDLE_ID = $(BUNDLE_ID_PREFIX).$(SCHEME_NAME)

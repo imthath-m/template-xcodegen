@@ -3,7 +3,7 @@
 DEVELOPMENT_TEAM = 1234XXXX9 // REPLACE YOUR TEAM'S ID
 
 APP_NAME = Template
-BUNDLE_ID_PREFIX = com.skydevz.template.
+BUNDLE_ID_PREFIX = com.skydevz.template
 URL_SCHEME_PREFIX = template
 
 APP_VERSION = 1.2
