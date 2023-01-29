@@ -57,3 +57,20 @@ targets:
       Release:
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "Apple Distribution"
+  TemplateWidget:
+    type: app-extension
+    platform: iOS
+    deploymentTarget:
+      iOS: 15.0
+    sources:
+      - Widget
+    configFiles:
+      Release: Configs/Release.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID).widget
+        DEVELOPMENT_TEAM: $(DEVELOPMENT_TEAM)
+        INFOPLIST_FILE: Widget/Info.plist
+      Release:
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "Apple Distribution"
